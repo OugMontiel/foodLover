@@ -1,4 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url(variables.css);
+
 *{
     padding: 0;
     margin: 0;
@@ -11,20 +14,20 @@ header{
     position: relative;
 }
 .menu{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
     height: 100px;
     position: relative;
     /* display: inline-block; */
 }
 .menu_item1{
-    background-color: hotpink;
+    /* background-color: hotpink; */
     display: inline-block;
     position: absolute;
     text-align: center;
 }
 .menu_item2{
-    background-color:blueviolet;
+    /* background-color:blueviolet; */
     display: inline-block;
     position: absolute;
     /* left: 50px; */
@@ -37,17 +40,26 @@ header{
     margin: auto;
 }
 .menu_item3{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     display: inline-block;
     position: absolute;
     right: 0;
     text-align: center;
 }
 .menu_item1 li, .menu_item3 li{
-    background-color: blue;
+    /* background-color: blue; */
     display: inline-block;
-    margin: 0 16px;
+    margin: 20px 16px;
     /* width: 100px; */
+}
+.menu_item1 li a, .menu_item3 li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--color-font);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 .menu_item2 img{
     width: var(--logo-width);
