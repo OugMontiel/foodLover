@@ -1,1 +1,26 @@
 @import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: red;
+}
+.menu{
+    background-color: aqua;
+}
+.menu_item1{
+    background-color: hotpink;
+}
+.menu_item2{
+    background-color:blueviolet;
+}
+.menu_item3{
+    background-color: chartreuse;
+}
+.menu_item1 li, .menu_item3 li{
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+}
